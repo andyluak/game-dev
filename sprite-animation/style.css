@@ -1,0 +1,18 @@
+#canvas1 {
+  margin: 10px;
+  background: #fff;
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.controls {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 10px;
+}
