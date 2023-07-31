@@ -1,12 +1,20 @@
-body {
-  margin: 0;
-  background: darkgray;
-  overflow: hidden;
-  text-align: center;
+body{
+    margin:0;
+    background:darkgray;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#networkCanvas {
+#networkCanvas{
+    background:black;
+}
+#carCanvas{
+    background:lightgray;
+}
+
+.buttons {
+  position: absolute;
+  left: 0;
   background: black;
-}
-#carCanvas {
-  background: lightgray;
 }
